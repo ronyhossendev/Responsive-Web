@@ -9,10 +9,10 @@
 ol,
 ul {
     list-style-type: none;
+    display: inline-block;
 }
 
-a,
-a:hover {
+a{
     text-decoration: none;
 }
 
@@ -38,6 +38,7 @@ p {
     top: 0;
     width: 100%;
 }
+
 .nav-link {
     color: #dddd;
     font-weight: 400;
@@ -45,36 +46,220 @@ p {
     font-family: "Oswald", sans-serif;
     transition: .4s;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: pink;
 
 }
-.btn a{
+
+.btnHead a {
     color: #ffff;
     font-weight: 400;
     font-size: 16px;
     font-family: "Oswald", sans-serif;
     padding: 0px 10px;
     transition: .4s;
+    background: none;
+}
 
+.btnHead a:hover {
+    color: #FF4655;
 }
-.btn a:hover{
-    color: #dddd;
-}
-.rony{
+
+.rony {
     margin-right: 5px;
 }
 
 /* Header Part End  */
 
 /* Banner Part Start  */
-#bannerPart{
+#bannerPart {
     background: url(../images/banner2.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 340px;
     padding-bottom: 100px;
+
+}
+
+.bannerText h3 {
+    font-size: 27px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+}
+
+.bannerText h1 {
+    font-size: 60px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+    padding: 30px 0;
+    position: relative;
+
+}
+
+.bannerText h1::after {
+    position: absolute;
+    height: 4px;
+    width: 90px;
+    background: #FFFFFF;
+    right: 20px;
+    bottom: 25px;
+    content: "";
+}
+
+.bannerText p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+    line-height: 24px;
+    padding-right: 109px;
+    padding-bottom: 50px;
+}
+
+.bannerText a {
+    padding: 13px 25px;
+    background: #FFFFFF;
+    color: #121212;
+    font-weight: 400px;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.socialItem {
+    padding-top: 300px;
+
+}
+
+.socialItem a {
+    background: #d9d9d9;
+    border-radius: 50%;
+    padding: 10px 13px;
+
+}
+
+
+/* Banner Part End */
+
+/* About Part Start   */
+#aboutpart {
+    background: #121212;
+    padding-top: 35px;
+    padding-bottom: 80px;
+}
+
+.aboutHeading h3 {
+    font-size: 38px;
+    font-weight: 600px;
+    color: #ffff;
+    font-family: "Oswald", sans-serif;
+    line-height: 38px;
+    padding-right: 200px;
+    position: relative;
+
+}
+
+.aboutHeading h3::after {
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    left: 200px;
+    bottom: 3px;
+    content: "";
+}
+
+.aboutcart {
+    margin-top: 60px;
+}
+
+.aboutPoint {
+    margin-top: 140px;
+}
+
+.aboutPoint h3 {
+    font-size: 27px;
+    font-weight: 600px;
+    color: #ffff;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.aboutPoint h5 {
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 40px;
+    color: #ffff;
+    font-family: "barlow condensed", sans-serif;
+
+}
+
+.aboutPoint P {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+    line-height: 24px;
+    padding-right: 109px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+}
+
+.aboutPoint a {
+    padding: 13px 25px;
+    background: #212121;
+    color: #fff;
+    font-weight: 400px;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    display: inline-block;
+
+}
+
+.aboutPoint a li {
+    color: #fff;
+}
+
+.countherItem {
+    background: #212121;
+    padding: 26px 85px;
+    text-align: center;
+    color: white;
+    border-radius: 0 50px;
+    border: bottom right radius 50px;
     
 }
-/* Banner Part End  */
+
+.countherItem h3 {
+    font-size: 45px;
+    font-weight: 600px;
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 10px;
+
+}
+
+.countherItem h3 i {
+    color: #FF4655;
+    font-size: 12px;
+}
+
+.countherItem p {
+    font-size: 18px;
+    font-weight: 300px;
+    font-family: "Oswald", sans-serif;
+
+}
+
+.countermainrowtext{
+    padding-top: 100px;
+}
+
+
+
+/* About Part End  */
